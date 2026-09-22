@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="layout">
+    <nav>
+        <ul>
+            <li><a href="index.html">Yvonne Liang</a></li>
+            <li><a href="education.html">Education</a></li>
+            <li><a href="experiences.html">Experiences</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="skills.html">Skills</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <header>
+        <h1>Yvonne Liang</h1>
+        <p> My Online resume</p>
+    </header>
+    <main>
+        <h2>Projects</h2>
+        <h3>LabelIQ Nutrition App</h3>
+        <p>Java, Springboot, React Native, PostgreSQL, OpenAI API</p>
+        <ul>
+            <li>
+                Engineered a scalable Spring Boot backend for an AI-powered nutrition app, enabling automated analysis of text and photo meal logs.
+            </li>
+            <li>
+                Integrated OpenAI vision APIs to classify foods with 75% accuracy, computing health scores and personalized intake insights.
+            </li>
+            <li>
+                Designed and optimized the PostgreSQL database schema, supporting user profiles, food logs, scores, and daily summaries.
+            </li>
+            <li>
+                Built a scoring algorithm that evaluates meals based on macro balance, caloric density, and dietary goals.
+            </li>
+        </ul>
+
+        <h3>BU Hub Selector</h3>
+        <p>Python, Flask, JavaScript, HTML, Tailwind CSS</p>
+        <ul>
+            <li>
+                Built a full-stack web app for BU students to search and filter 1,500+ courses across 20+ requirements, reducing manual course planning time.
+            </li>
+            <li>
+                Scraped and structured course data using BeautifulSoup and Flask APIs, serving JSON responses with <200ms latency.
+            </li>
+            <li>
+                Designed a responsive frontend with T ailwind and dynamic filtering logic to improve interactive filtering and course card displays.
+            </li>
+        </ul>
+
+        <h3>GapLess Job Matching App</h3>
+        <p>Python, JavaScript, Flask, React, HTML/CSS, Claude API</p>
+        <ul>
+            <li>
+                Developed a full-stack web app that analyzes resumes, research papers, and personal interests to match users with relevant job postings.
+            </li>
+            <li>
+                Constructed a robust document-parsing pipeline to extract unstructured profile data and convert it into unified candidate profiles.
+            </li>
+            <li>
+                Integrated the Claude API to generate real-time candidate-job matches in 5 seconds, improving match relevance over keyword search.
+            </li>
+            <li>
+                Designed a responsive React frontend and Flask backend to handle uploads, process data, and display results.
+            </li>
+        </ul>
+        <h3>JavaScript Calculator</h3>
+        <div class="calculator">
+            <div class="inputs">
+                <input type="text" id="first-number">
+                <input type="text" id="second-number">
+            </div>
+            <div class="buttons">
+                <button onclick="addition()"> + </button>
+                <button onclick="subtraction()"> - </button>
+                <button onclick="multiplication()"> * </button>
+                <button onclick="division()"> / </button>
+                <button onclick="power()"> ** </button>
+                <button onclick="Clear()"> clear </button>
+            </div>
+            <h3 id="output"></h3>
+        </div>
+    </main>
+
+    <footer>
+        <p>All Rights Reserved by Yvonne Liang <a href=" ">Credits</a>&#169;</p>
+    </footer>
+</div>
+<script src="calculator.js"></script>
+</body>
+</html>
